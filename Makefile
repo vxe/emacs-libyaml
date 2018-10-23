@@ -26,4 +26,4 @@ test:
 		-l test/test-libyaml.el \
 		-f ert-run-tests-batch-and-exit
 install:
-	cp *.so ..
+	cp *.so .. && cp *.el ..
